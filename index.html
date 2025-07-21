@@ -23,7 +23,7 @@
 </head>
 
 <body class="manrope">
-    <header>
+    <header id="home">
         <section class="bg-gradient-to-b from-[#E9E9E9] to-white bg-cover bg-center">
             <nav class="mx-4 md:mx-16 lg:mx-34 py-14 ">
                 <!-- nav -->
@@ -33,9 +33,9 @@
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
-                            <li><a href="">Home</a></li>
+                            <li><a href="home">Home</a></li>
                             <li><a href="">Services</a></li>
-                            <li><a href="">Portfolio</a></li>
+                            <li><a href="Portfolio">Portfolio</a></li>
                             <li><a href="">Blogs</a></li>
                             <li><a href="">Contact Us</a></li>
                         </ul>
@@ -60,9 +60,9 @@
                             </div>
                             <ul tabindex="0"
                                 class="menu menu-sm dropdown-content right-0 bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                                <li><a href="">Home</a></li>
+                                <li><a href="home">Home</a></li>
                                 <li><a href="">Services</a></li>
-                                <li><a href="">Portfolio</a></li>
+                                <li><a href="Portfolio">Portfolio</a></li>
                                 <li><a href="">Blogs</a></li>
                                 <li><a href="">Contact Us</a></li>
                             </ul>
@@ -219,7 +219,7 @@
         </section>
     </main>
     <!-- Our Latest Portfolio -->
-    <section>
+    <section id="Portfolio">
         <div class="text-center">
             <button class="px-4 py-2 rounded-full bg-[#c7f594] flex gap-x-2 items-center justify-center mx-auto">
                 <i class="fa-solid fa-arrow-right"></i>
@@ -409,16 +409,22 @@
             </div>
         </section>
         <!-- main footer -->
-        <section class="bg-black text-white">
-            <div class="justify-center">
+        <section class="bg-black text-white py-25">
+            <div class="flex flex-col gap-12 items-center justify-center">
                 <div class="flex gap-2 items-center justify-center">
                     <img src="assets/arrow-up-right-01.png" alt="">
                     <h2 class="text-[24px] font-extrabold"> Rinterio</h2>
                 </div>
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                <p class="text-[#737373] mx-95 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                     weathered wood, sleek metal accents.
                 </p>
-                
+                <ul class="flex gap-x-30 text-[#E9E9E9] items-center justify-center">
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Blogs</li>
+                    <li>Contact Us</li>
+                </ul>
             </div>
         </section>
     </footer>
